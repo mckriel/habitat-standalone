@@ -7,6 +7,7 @@ const CURRENT_CACHE = `cache-storage-V${CACHE_VERSION}`;
 const cacheFiles = [
     // pages
     '/index.html',
+    '/directions.html',
     // files
     '/static/style.css',
     '/static/img/app-icon.png',
