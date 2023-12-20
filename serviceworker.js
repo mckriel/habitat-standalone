@@ -16,7 +16,7 @@ const cacheFiles = [
     'static/js/idbop.js',
     'static/patua-one-v20-latin-regular.woff2',
 ]
-
+// 'git commit test'
 
 // activation event: clean up previously registered service workers
 self.addEventListener('activate', event =>
