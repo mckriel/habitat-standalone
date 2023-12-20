@@ -9,11 +9,12 @@ const cacheFiles = [
     '/index.html',
     '/directions.html',
     // files
-    '/static/style.css',
-    '/static/img/app-icon.png',
-    '/static/img/festival-map.jpg',
-    '/static/js/idbop.js',
-    '/static/patua-one-v20-latin-regular.woff2',
+    'manifest.json',
+    'static/style.css',
+    'static/img/app-icon.png',
+    'static/img/festival-map.jpg',
+    'static/js/idbop.js',
+    'static/patua-one-v20-latin-regular.woff2',
 ]
 
 
