@@ -1,0 +1,261 @@
+/* patua-one-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Patua One';
+  font-style: normal;
+  font-weight: 400;
+  src: url('patua-one-v20-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+:root {
+    --dark: #0A1D2C;
+    --light: #E1A16A;
+    --white: #FFF9CA;
+    --red: #E04866;
+    --green: #004a54;
+    --border1: 1px solid #E1A16A;
+    --border23: 1px solid #0A1D2C;
+    --border24: 1px solid #0A1D2C;
+    --border25: 1px solid #0A1D2C;
+    --border26: 1px solid #0A1D2C;
+}
+
+body {
+    color: var(--light);
+    display: flex;
+    justify-content: center;
+    align-content: flex-start;
+    font-family: 'Patua One', serif;
+    text-transform: uppercase;
+    list-style-type: none;
+    background-color: var(--dark);
+    height: 100%;
+    min-width: 300px;
+}
+
+main {
+    border: var(--border23);
+    margin-top: 100px;
+    padding: 2px;
+    width: 350px;
+    min-height: 600px;
+}
+
+section {
+    border: var(--border23);
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.app-header {
+    border: var(--border24);
+    background-color: var(--dark);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.app-body {
+    border: var(--border25);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 450px;
+    margin: 2px auto;
+    padding: 2px 2px 50px;
+}
+
+.app-footer {
+    border: var(--border26);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: var(--dark);
+}
+
+.header-logo {
+    height: 80px;
+    display: block;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header-text {
+    font-size: 22px;
+    font-family: "Patua One";
+    color: var(--white);
+    /*text-decoration: underline;*/
+}
+
+.schedule-card-body {
+    width: 100%;
+    border: var(--border23);
+    padding: 0px;
+    margin-top: 50px;
+}
+
+.schedule-list {
+    padding: 0px;
+}
+
+.schedule-card {
+    border: var(--border1);
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+}
+
+.schedule-card-title {
+    padding-bottom: 3px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    margin: 0px auto;
+}
+
+.schedule-card-genre {
+    margin: 0px;
+    font-size: 12px;
+    color: var(--white);
+}
+
+.schedule-card-time {
+    margin: 0px;
+    color: var(--red);
+    font-size: 14px;
+}
+
+.day-selector {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    position: fixed;
+    top: 120px;
+    left: 0;
+    width: 100%;
+    background-color: var(--dark);
+}
+
+.filter-button {
+    font-family: 'Patua One', serif;
+    font-size: 18px;
+    /*width: 100px;*/
+    border: none;
+    color: var(--green);
+    text-transform: uppercase;
+    background-color: #0A1D2C;
+    /*margin-left: 5px;*/
+    /*margin-right: 5px;*/
+}
+
+.filter-button:hover {
+    color: var(--white);
+}
+
+.day-select-active {
+    color: var(--white);
+}
+
+
+.navbar {
+    display: table;
+    width: 350px;
+    table-layout: fixed;
+    font-size: 20px;
+    color: var(--green);
+}
+
+.navbar a {
+    display: table-cell;
+    text-align: center;
+    color: #004a54;
+
+}
+
+.navbar a:hover {
+    color: var(--red);
+}
+
+.navbar-select-active {
+    color: var(--red);
+}
+
+.directions-body {
+    width: 350px;
+    text-transform: none;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    vertical-align: auto;
+}
+
+.directions-body-alt {
+    width: 350px;
+    text-transform: none;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    vertical-align: auto;
+    color: var(--white);
+}
+
+.directions-pin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: var(--border1);
+    border-radius: 5px;
+    height: 40px;
+    width: 250px;
+    text-transform: uppercase;
+    background-color: var(--white);
+    margin-top: 20px;
+
+}
+
+.directions-pin a {
+    color: var(--dark);
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/*.map-body {*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*    text-align: center;*/
+/*    margin: auto;*/
+/*    flex-direction: column;*/
+/*}*/
+
+/*.map-image {*/
+/*    border: #E04866;*/
+/*    margin: auto;*/
+/*    width: 300px;*/
+/*}*/

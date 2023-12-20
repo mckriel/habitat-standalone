@@ -1,0 +1,8 @@
+INCOMPLETE
+copy over static files
+edit index.html and base.html
+confirm styling is working
+add a manifest.json
+clean up and rename js files
+
+DONE

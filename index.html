@@ -1,0 +1,64 @@
+<html lang="en">
+<head>
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5JT5SKB6RC"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-5JT5SKB6RC');
+    </script>
+    
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+
+    <!-- Meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+    <!-- Style sheet -->
+    <link rel="stylesheet" type="text/css" href="static/style.css" />
+    
+    <!-- Web manifest   -->
+    <link rel="manifest" href="/manifest.json">
+
+    <!-- Title -->
+    <title>Habitat - Arcadian Forest</title>
+</head>
+<body class="app-canvas">
+    <main class="app-container">
+        <section class="app-header">
+            <img class="header-logo" src="static/img/habitat-logo.png" alt="habitat logo"/>
+        </section>
+        <section class="app-body">
+
+            <div class="day-selector">
+                <button class="filter-button day-select-active" type="button" data-id="0">Friday</button>
+                <button class="filter-button" type="button" data-id="1">Saturday</button>
+                <button class="filter-button" type="button" data-id="2">Sunday</button>
+            </div>
+            <div class="schedule-card-body">
+                <ul class="schedule-list">
+
+                </ul>
+            </div>
+
+        </section>
+
+        <script type="text/javascript" src="static/js/idbop.js"></script>
+        <section class="app-footer">
+            <div class="navbar">
+                <a class="nav-item" href="/"><span class="material-symbols-outlined">music_note</span></a>
+                <a class="nav-item" href="/directions/"><span class="material-symbols-outlined">pin_drop</span></a>
+            </div>
+        </section>
+        
+        <script>
+            navigator.serviceWorker.register('serviceworker.js');
+        </script>
+    </main>
+</body>
+</html>

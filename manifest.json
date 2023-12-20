@@ -1,0 +1,15 @@
+{
+  "name": "Habitat",
+  "short_name": "Habitat",
+  "description": "Arcadian Forest Festival Guide",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "scope": "/",
+  "orientation": "portrait",
+  "background_color": "#0A1D2C",
+  "theme_color": "#0A1D2C",
+  "status_bar": "default",
+  "icons": [{"src": "/static/img/app-icon.png", "sizes": "160x160"}],
+  "dir": "ltr",
+  "lang": "en-US"
+}
